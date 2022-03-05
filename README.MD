@@ -19,7 +19,11 @@
 
 ## About this game
 
+Echos that Sings is a visual novel video game.
 This game is created by [replace with your name], [replace with your name], [replace with your name], and [replace with your name] in 30 days for the [NaNoRenO 2022].
+
+Estimated playtime: 2 hours
+
 
 [NaNoRenO 2022]:https://itch.io/jam/nanoreno-2022
 
@@ -28,7 +32,9 @@ This game is created by [replace with your name], [replace with your name], [rep
 ## Technologies Used
 
 ### Ren'Py
-Ren'Py is a visual novel engine – used by thousands of creators from around the world – that helps you use words, images, and sounds to tell interactive stories that run on computers and mobile devices.
+[Ren'Py] is a visual novel engine – used by thousands of creators from around the world – that helps you use words, images, and sounds to tell interactive stories that run on computers and mobile devices.
+
+[Ren'Py]:https://www.renpy.org/doc/html/index.html
 
 (Please add the sofeware you are using for creating artwork)
 
