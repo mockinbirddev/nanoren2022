@@ -20,7 +20,7 @@
 ## About this game
 
 Echos that Sings is a visual novel video game.
-This game is created by Nikki X (Story), [replace with your name], [replace with your name], and [replace with your name] in 30 days for the [NaNoRenO 2022].
+This game is created by Nikki X (Story), Matthew (Coder), [replace with your name], and [replace with your name] in 30 days for the [NaNoRenO 2022].
 
 Estimated playtime: 2 hours
 
