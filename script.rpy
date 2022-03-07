@@ -1,5 +1,20 @@
 ﻿# The script of the game goes in this file.
 
+# Splash screen
+image logo = "TSKN03.png"
+image devLogo = "bird.png"
+label splashscreen:
+    scene black with dissolve
+    pause (2)
+    show logo with dissolve
+    pause (2)
+    hide logo with dissolve 
+    show devLogo with dissolve
+    pause (2)
+    hide devLogo with dissolve 
+
+    return
+
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
