@@ -2,7 +2,7 @@
 
 # Splash screen
 image logo = "TSKN03.png"
-image devLogo = "bird.png"
+image devLogo = "mbLogo.jpg"
 label splashscreen:
     scene black with dissolve
     pause (2)
