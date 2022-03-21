@@ -23,13 +23,15 @@ define a = Character("Adam")
 define f = Character("Finn")
 define ga = Character("Gabriel Andrews")
 define c = Character("Cleo")
-
+define mom = Character("Ms. Martinez")
+define l = Character("Leon")
 
 # The game starts here.
 
 label start:
 
     #call prologue
+    call a1s3
     call a2s1
     call a2s2
     call a2s3
