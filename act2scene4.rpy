@@ -1,4 +1,4 @@
-hw = Character("Helpful NISB Worker")
+define hw = Character("Helpful NISB Worker")
 label a2s4:
 
     scene bgroom

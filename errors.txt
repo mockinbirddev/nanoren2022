@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "a2s4.rpy", line 1: expected statement.
+    hw = Character("Helpful NISB Worker")
+       ^
+
+Ren'Py Version: Ren'Py 7.4.11.2266
+Mon Mar 21 13:38:37 2022

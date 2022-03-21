@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "script.rpy", line 34, in script call
+    call a2s2
+  File "act2scene2.rpy", line 99, in script
+    aa "I'm not up to anything. I just wanted to explain to them about their weak security.."
+Exception: Sayer 'aa' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "script.rpy", line 34, in script call
+    call a2s2
+  File "act2scene2.rpy", line 99, in script
+    aa "I'm not up to anything. I just wanted to explain to them about their weak security.."
+  File "renpy/ast.py", line 681, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "renpy/ast.py", line 574, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'aa' is not defined.
+
+Windows-10-10.0.19041
+Ren'Py 7.4.11.2266
+Echoes That Sings 1.0
+Mon Mar 21 13:41:45 2022
