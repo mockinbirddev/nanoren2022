@@ -1,14 +1,6 @@
-﻿# The script of the game goes in this file.
-
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-define a = Character("Adam")
-define f = Character("Finn")
-
 # The game starts here.
 
-label start:
+label a2s1:
 
     "...Typing can be heard"
 
