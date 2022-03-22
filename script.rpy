@@ -15,10 +15,31 @@ label splashscreen:
 
     return
 
+#images
+#characters
+image adam angry = "adam angry.png"
+image adam happy = "adam happy.png"
+image adam neutral = "adam neutral.png"
+image adam talking = "adam talking.png"
+
+image finn neutral = "finn neutral.png"
+image finn talking = "finn talking.png"
+
+image leon angry = "leon angry.png"
+image leon neutral = "leon neutral.png"
+
+image mom neutral = "mom neutral.png"
+image mom upset = "mom upset.png"
+
+#bg
+image black = "#000"
+image bg apartment1 = "modernBG/18_condo_10/condo_Day 01.jpg"
+image bg bedroom = "bedroom.jpg"
+image bg classroom = "classroom.jpg"
+
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
 define a = Character("Adam")
 define f = Character("Finn")
 define ga = Character("Gabriel Andrews")
@@ -33,7 +54,7 @@ label start:
 
     #call prologue
     call a1s1
-    call a2s2
+    call a1s2
     call a1s3
     call a2s1
     call a2s2

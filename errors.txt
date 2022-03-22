@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "a2s4.rpy", line 1: expected statement.
-    hw = Character("Helpful NISB Worker")
-       ^
+File "act1Scene1.rpy", line 57: end of line expected.
+    with hpunch for right and left
+                ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Mon Mar 21 13:38:37 2022
+Tue Mar 22 13:05:08 2022

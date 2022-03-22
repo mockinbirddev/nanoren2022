@@ -1,21 +1,21 @@
-Mon Mar 21 14:40:44 2022
+Tue Mar 22 13:10:44 2022
 Windows-10-10.0.19041
 Ren'Py 7.4.11.2266
  
 
-Bootstrap to the start of init.init took 0.10s
+Bootstrap to the start of init.init took 0.09s
 Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.04s
-Loading script took 0.50s
-Loading save slot metadata. took 0.02s
+Loader init took 0.03s
+Loading error handling took 0.05s
+Loading script took 0.47s
+Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.10s
-Loading analysis data took 0.03s
+Running init code took 0.11s
+Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
-Backing up script files to 'C:\\Users\\msand\\AppData\\Roaming/RenPy/backups\\nanoren2022':
+Backing up script files to 'C:\\Users\\Matt\\AppData\\Roaming/RenPy/backups\\nanoren2022':
 Dump and make backups. took 0.01s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
@@ -25,25 +25,25 @@ nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: "Couldn't load nvlib." (can be ignored)
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.06s
+Init translation took 0.07s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.08s
+Analyze screens took 0.02s
+Save screen analysis took 0.05s
+Prepare screens took 0.13s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
+Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.11s
+Interface start took 0.13s
 
 Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
+primary display bounds: (0, 0, 2560, 1440)
 swap interval: 1 frames
 Windowed mode.
 Vendor: 'Intel'
-Renderer: 'Intel(R) HD Graphics 620'
-Version: '4.5.0 - Build 23.20.16.4973'
+Renderer: 'Intel(R) HD Graphics 630'
+Version: '4.6.0 - Build 27.20.100.8681'
 Display Info: None
 Screen sizes: virtual=(1280, 720) physical=(1193, 671) drawable=(1193, 671)
 Maximum texture size: 4096x4096
