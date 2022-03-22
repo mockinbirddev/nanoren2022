@@ -31,10 +31,14 @@ image leon neutral = "leon neutral.png"
 image mom neutral = "mom neutral.png"
 image mom upset = "mom upset.png"
 
+image teach neutral = "teacher.png"
+image teach angry = "teacher.png"
+
 #bg
 image black = "#000"
 image bg apartment1 = "modernBG/18_condo_10/condo_Day 01.jpg"
 image bg bedroom = "bedroom.jpg"
+image bg busStop = "bus_station.jpg"
 image bg classroom = "classroom.jpg"
 
 # Declare characters used by this game. The color argument colorizes the

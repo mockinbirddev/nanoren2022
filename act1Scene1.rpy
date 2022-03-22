@@ -33,7 +33,6 @@ label a1s1:
     a "Of course, life would have been much clearer for me if youre were still here.{p}But I won't let you down.{p}There's nothing here in this world that can bring me down."
     ##scene bg room #show black scene -- addin later
     hide adam neutral
-    with fade
     scene bg apartment1
     ##play sound walkingSound.mp3
     ##with fade
