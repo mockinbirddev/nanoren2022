@@ -8,8 +8,9 @@ define lm = Character("Leon and Ms. Martinez")
 
 label a1s1:
 
-    #play sound somberMusic.mp3 -- add in later
-    "*alarm is ringing.......*{p}......continues ringing."#was originally one line but split to two to create space
+    play music badSequential volume 0.2
+    "*alarm is ringing.......*{p}
+    ......continues ringing."
     mom "Adam! Get up! You're going to be late."
     "*knocking scene*"
     a "*sigh*{p}Dad, why did you have to leave...{p}Maybe this wouldn't be such a problem if you were still here.{p}It's all mom's fault."
@@ -56,7 +57,7 @@ label a1s1:
     hide adam
     hide leon
     hide mom
-    #with hpunch for right and left
+    show bg apartment1 with vpunch ##shakes screen
     show adam neutral at right
     a "Ouch..."
 

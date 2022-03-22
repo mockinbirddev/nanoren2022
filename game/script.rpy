@@ -35,7 +35,6 @@ image teach neutral = "teacher.png"
 image teach angry = "teacher.png"
 
 image labAss neutral = "nerd.jpg"
-#test
 
 #bg
 image black = "#000"
@@ -46,9 +45,7 @@ image bg busStop = im.Scale("bus_station.jpg",1280,720)
 image bg classroom = im.Scale("classroom.jpg",1280,720)
 image bg computerLab =im.Scale( "modernBG/that_couch.jpg",1280,720)
 
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
+#characters
 define a = Character("Adam")
 define f = Character("Finn")
 define ga = Character("Gabriel Andrews")
@@ -57,8 +54,10 @@ define mom = Character("Ms. Martinez")
 define l = Character("Leon")
 define lm = Character("Leon and Ms. Martinez")
 
-# The game starts here.
+#audio
+define audio.badSequential = "audio/badSequential.ogg"
 
+# The game starts here.
 label start:
 
     #call prologue
