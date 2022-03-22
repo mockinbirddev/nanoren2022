@@ -39,12 +39,12 @@ image labAss neutral = "nerd.jpg"
 
 #bg
 image black = "#000"
-image bg apartment1 = im.Scale("modernBG/18_condo_10/condo_Day 01.jpg",1920,1080)
-image bg apartment2 = im.Scale("modernBG/18_condo_10/condo_day 05.jpg",1920,1080)
-image bg bedroom =im.Scale( "bedroom.jpg",1920,1080)
-image bg busStop = im.Scale("bus_station.jpg",1920,1080)
-image bg classroom = im.Scale("classroom.jpg",1920,1080)
-image bg computerLab =im.Scale( "modernBG/that_couch.jpg",1920,1080)
+image bg apartment1 = im.Scale("modernBG/18_condo_10/condo_Day 01.jpg",1280,720)
+image bg apartment2 = im.Scale("modernBG/18_condo_10/condo_day 05.jpg",1280,720)
+image bg bedroom =im.Scale( "bedroom.jpg",1280,720)
+image bg busStop = im.Scale("bus_station.jpg",1280,720)
+image bg classroom = im.Scale("classroom.jpg",1280,720)
+image bg computerLab =im.Scale( "modernBG/that_couch.jpg",1280,720)
 
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
