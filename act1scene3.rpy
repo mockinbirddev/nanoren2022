@@ -1,9 +1,11 @@
 define la = Character("Lab Assistant")
 label a1s3:
 
-    scene bgroom
+    scene bg computerLab
 
     "..typing"
+
+    show adam neutral
 
     a "**I don't need this. I don't need anyone. I can do everything on my own.**"
 
@@ -60,40 +62,52 @@ label a1s3:
     "..shake"
 
     #enter lab assistant
-
+    show labAss neutral at right
     la "Hey, what's going on here? What are you doing?"
 
     "..shake"
 
     la "What is this? Oh boy, you're in so much trouble."
+    hide labAss
+    hide adam
+    scene black
 
-    hide bgroom
-
-    scene bgroom
+    scene bg bedroom
     with fade
 
     "*in bedroom*"
 
     mom "What were you thinking? You think you can just change your grades and get away with it?"
 
+    show adam talking at right
     a "Why do you care? You never seem to care about my school life. I'm almost done. Just let me graduate."
 
     a "You and Leon can be happy after I move."
+    show adam neutral
 
+    show leon neutral
     l "Haha, you're going to move? You think you can afford that buddy? It's not easy. Especially for you."
 
+    show adam talking
     a "Well if someone like you can manage I think I'll be fine."
+    show adam neutral
 
+    show leon angry
     l "Why you..."
 
     "..shake"
 
+    show leon neutral
+    show adam talking
     a "Mom..."
+    show adam neutral
 
+    show mom upset at left
     mom "You're an ungrateful, good-for-nothing son. Why have you been acting up?"
 
     mom "Do you know how much I've sacrificed for you, what I've done for you? Doesn't that mean anything?"
 
+    show adam angry
     a "What you've done? What are you talking about?"
 
     a "After Dad died you left and picked up this stupid prick, and he hasn't left since. It's been 3 months!"
@@ -108,15 +122,21 @@ label a1s3:
 
     l "You know what boy, get the hell out. We don't want you here."
 
+    show mom neutral
     mom "No! He doesn't mean it Adam. Look..."
 
+    show adam talking
     a "No, forget it. If this is what you want then this is it. I am out of here."
+    show adam neutral
 
     "..shake"
 
+    show mom upset
     mom "Stop! What are you doing?"
 
+    show adam talking
     a "I'm packing. I'm done with this. I'm packing my clothes, Dad's computer, and I'm getting out of here."
+    show adam neutral
 
     l "Where you gonna go, huh? You ain't got no money. I like to see how long you can last in the real world."
 
@@ -134,22 +154,31 @@ label a1s3:
 
     "..shake"
 
+    show adam angry
     a "Leave my Dad's stuff alone!"
+    show adam neutral
 
     "..shake"
 
+    show adam talking
     a "I'm sorry Mom, but this is for the best. I can't stay here. As long as you have Leon under this roof, I will never come back."
+    show adam neutral
 
     l "That's right. Get the hell out. This is my house. Don't ever come back, boy."
 
-    hide bgroom
+    hide leon
+    hide mom
+    hide adam
+
+    scene black
 
     #new apartment
 
-    screen bgroom
+    scene bg apartment2
+    with fade
 
     #music
-
+    show adam neutral
     a "**I can't believe I was able to find a place on such short notice.**"
 
     a "**I'm not that far from home so at least I can check on Mom if I need to, but man I could have gone farther if it wasn't for the computer.**"
@@ -177,5 +206,9 @@ label a1s3:
     a "**Anxiety is creeping up on me. Should I be worried?**"
 
     a "**Dad... what should I do?**"
+
+    hide bg
+    with fade
+    hide adam
 
     return
