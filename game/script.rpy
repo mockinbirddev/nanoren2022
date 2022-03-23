@@ -55,15 +55,18 @@ define l = Character("Leon")
 define lm = Character("Leon and Ms. Martinez")
 
 #audio
-define audio.badSequential = "audio/badSequential.ogg"
+define audio.badSequential = "audio/BadSequential.mp3"
+define audio.fanfare = "audio/Fanfare.mp3"
+define audio.tetheredFate = "audio/TetheredFate.mp3"
 
 # The game starts here.
 label start:
-
     #call prologue
+    #act 1
     call a1s1
     call a1s2
     call a1s3
+    #act 2
     call a2s1
     call a2s2
     call a2s3
