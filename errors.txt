@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "act1scene3.rpy", line 177: u'a' is not a keyword argument or valid child for the screen statement.
+    screen bg a
+               ^
+
+Ren'Py Version: Ren'Py 7.4.11.2266
+Tue Mar 22 13:55:19 2022
