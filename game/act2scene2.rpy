@@ -9,26 +9,35 @@ label a2s2:
     #play lobby music
 
     #transition to the nisb office
-    scene bgroom
+    scene bg office
     with fade
 
+    show nisb
     nisb "Hello there, due to security you must have an appointment to enter the premises."
 
+    show adam talking at left
     a "Hi, my name is Finn and no. I would like to speak to someone in charge of the county's network security here."
+    show adam neutral
 
     a "** I think I am wanted but I want to make sure I don't get caught before I get to the bottom of this. **"
 
     nisb "I don't think I can squeeze you in for someone like that. What would be the purpose?"
 
+    show adam talking
     a "I'm not at liberty to say but a friend of mine told me about some security flaws for some places in the area and they found something interesting."
+    show adam neutral
 
     nisb "And that is?"
 
+    show adam talking
     a "A money laundering front for a criminal organizaion that is terrorizing our city. Haha..."
+    show adam neutral
 
     nisb "Are you joking? We take these kind of things very seriously."
 
+    show adam talking
     a "I'm not! I even have the name of the bank that might be in trouble. Melrose Bank."
+    show adam neutral
 
     nisb "Melrose Bank? Why does that sound so familiar. "
 
@@ -36,17 +45,19 @@ label a2s2:
 
     nisb "If I found out you are kidding around, I don't think calling your parents will help you at this point."
 
+    show adam talking
     a "I swear I'm not. My friend is a good computer whiz and he's working onn a computer projcet that requires mapping out different netweork routes of our city."
-
     a "He's sort of building a network map similar to our subway system."
+    show adam neutral
 
     nisb "Is that so? Sounds like a smart kid. Well let's get going, my car is over there."
 
     #hide people
-    #load bank scene
+    scene bg bank
+    with fade
 
     #show bank worker, nisb and Adam
-
+    show banker at right
     bw "Hello there, is there anything I can help you with?"
 
     nisb "Yes, is it okay if I can speak to your manager, as well as someone who helps run your IT department here?"
@@ -58,6 +69,7 @@ label a2s2:
     nisb "Have you experienced anything weird lately?"
 
     bw "Not to my knowledge, no. But excuse me while I fetch them."
+    hide banker
 
     a "**I wonder if my dad was working with NISB before. Internet police sounds really cool.**"
 
@@ -65,6 +77,7 @@ label a2s2:
     #enter new characters
     "A figure approaches."
 
+    show gabriel neutral at right
     "???" "So you must be the kid that's inquiring about this bank. Allow me to introduce myself. My name is Gabriel Andrews."
 
     nisb "Ahh sir, what brings you out here?"
@@ -77,18 +90,22 @@ label a2s2:
 
     ga "You're doing fine work, and thanks for filling out the report."
 
-    #hide NISB
+    hide nisb
     "The NISB Worker leaves."
-
+    show gabriel at center
     ga "Excuse me, are you the manager?"
 
+    show bankMan at right
     bm "Yes, I was told someone needed me and th-.."
 
     ga "Sorry to cut you off, but we figured out what happened and it looked like a clerical error on our end. I am sorry to have bothered you."
 
     ga "Come now, we have to get you back to the office so you can finish your report, son."
+    hide bankMan
 
+    show adam talking
     a "Hey what are you doing? Shouldn't we ask them some questions? And I don't have a report to do."
+    show adam neutral
 
     ga "Are you the one my office has been trying to locate?"
 
@@ -96,11 +113,15 @@ label a2s2:
 
     ga "What are you up to?"
 
+    show adam talking
     a "I'm not up to anything. I just wanted to explain to them about their weak security.."
+    show adam neutral
 
     ga "And? That can't be all."
 
+    show adam talking
     a "I don't know what you are talking about, but my friend told me this bank is a front for a criminal organization."
+    show adam neutral
 
     ga "That can't be true, but I will make note of that in my report."
 
@@ -110,6 +131,8 @@ label a2s2:
 
     ga "Now run along home and I will deal with this."
 
+    hide gabriel
+    with dissolve
     "Gabriel walks away."
 
     a "**There's something about him that I can't shake.**"

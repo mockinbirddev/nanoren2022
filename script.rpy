@@ -34,7 +34,26 @@ image mom upset = "mom upset.png"
 image teach neutral = "teacher.png"
 image teach angry = "teacher.png"
 
-image labAss neutral = "nerd.jpg"
+image labAss neutral = "lab assistant.png"
+
+image classA = "classmate1.png"
+image classB = "classmate2.png"
+image classC = "classmate3.png"
+
+image banker = "classmate2.png"
+
+image bankMan = "classmate3.png"
+
+image cleo = "cleo.png"
+
+image helpNISB = "helpful nisb.png"
+
+image nisb = "nisb.png"
+
+image snake = "lab assistant.png"
+
+image gabriel evil = "gabriel evil.png"
+image gabriel neutral = "gabriel neutral.png"
 
 #bg
 image black = "#000"
@@ -44,6 +63,9 @@ image bg bedroom = im.Scale("bedroom.jpg", 1280, 720)
 image bg busStop = im.Scale("bus_station.jpg", 1280, 720)
 image bg classroom = im.Scale("classroom.jpg", 1280, 720)
 image bg computerLab = im.Scale("modernBG/that_couch.jpg", 1280, 720)
+image bg office = im.Scale("modernBG/19_condo_4/cheap_condo_morning.jpg",1280,720)
+image bg bank = im.Scale("modernBG/19_condo_4/cheap_condo_noon.jpg",1280,720)
+image bg park = im.Scale("modernBG/20_scenic-road_10/_scenic_road_noon.jpg", 1280, 720)
 
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.

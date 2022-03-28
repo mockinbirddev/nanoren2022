@@ -9,6 +9,7 @@ label a2s3:
 
     "...typing noises"
 
+    show adam neutral
     a "**I booted up my computer and I enabled another layer of security before I begin my mission.**"
 
     a "**I haven't noticed anything attacking my computer but I did receive a ton of emails from \"I-504.\" All of them are saying the same thing: They're out to get me.**"
@@ -46,9 +47,13 @@ label a2s3:
 
     a "**Wait... The Snake?! The Snake is contacting me?**"
 
+    show snake at left
+    with dissolve
     s "Looks like you're still at this, but no worries. In just a few minutes I will expose your location and everything will be taken care of."
 
+    show adam talking
     a "Who are you!? And what do you mean taken care of? I have skills that you've never seen before."
+    show adam neutral
 
     s "You're good but you're not that good. Watch this. Though, I can't get your exact location now, I can do this. This isn't the pinnacle of my power, but I'm sure it will give you some idea of what I'm capable of."
 
@@ -63,7 +68,7 @@ label a2s3:
 
     a "**What's this?**"
 
-    s "You can't escape from me, Lucias. Or should I say, Adam."
+    s "You can't escape from me, Lucious. Or should I say, Adam."
 
     s "You should have just went home and stuck your nose into some books."
 
@@ -80,6 +85,7 @@ label a2s3:
     s "If you left it laone and returned the money back we wouldn't have had any problems."
 
     s "But it's okay. I could have hacked the money back but I'm leaving it in there as evidence that you stole from the bank. Have a wonderful life Adam, I'll see you soon."
+    hide snake
 
     a "**This is not good...**"
 
@@ -87,6 +93,7 @@ label a2s3:
 
     a "**Another message? What is this? Cleo? God damnit, I don't have time for this. I need to get out of here.**"
 
+    show cleo at right
     c "For someone who is blooming in the hacking world, you sure are causing a lot of fires here. Looks like your system is still on lock down so you can't reply."
 
     c "Don't worry about who I am. Just go to Hyde Park."

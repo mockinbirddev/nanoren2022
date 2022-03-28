@@ -1,11 +1,10 @@
 define hw = Character("Helpful NISB Worker")
 label a2s4:
 
-    scene bgroom
+    scene bg park
     with fade
 
-    show eileen happy
-
+    show adam neutral
     a "*panting*"
 
     a "**Okay, so where is this bench...**"
@@ -18,6 +17,7 @@ label a2s4:
 
     a "**Ah, a message already.**"
 
+    show cleo at right
     c "Okay, no questions so just pay attention. This laptop is connceted via a satellite card so you're able to communicate with me."
 
     c "Right now, I have an associate taking picutres of the NISB raiding your apartment."
@@ -26,17 +26,23 @@ label a2s4:
 
     c "Nice place, I suppose, but he just reported that he did see The Snake."
 
+    show adam talking
     a "Can you tell me what's going on?"
+    show adam neutral
 
     c "My network has been trying to figure out how The Snake was involved but it looks like you did the groundwork for us."
 
     c "We didn't think it was someone form the NISB. The next part is going to be hard, but my contact at the NISB will be able to help you."
 
+    show adam talking
     a "Wait, what?"
+    show adam neutral
 
     c "You're going to go back to the NISB as a witness because we are going to take down The Snake as well as uncover his plans with the I-504 and his involvement with the Triads here."
 
+    show adam talking
     a "The Snake is working with the Triads? So he is money laundering for them and making sure it stays safe?"
+    show adam neutral
 
     c "That is the gist of it. And with your help I can report my findings with my contact at the NISB and we can finally nail this guy once are all."
 
@@ -46,7 +52,9 @@ label a2s4:
 
     c "I didn't think Gabriel Andrews would be the one, but now that we're onto him, we can do this."
 
+    show adam talking
     a "What are my next steps so that I don't die? I'm only in highschool dammit!"
+    show adam neutral
 
     c "Don't worry. My contact at the NISB office knows you are coming. I have arranged for a car to come pick you up. It should be arriving shortly."
 
@@ -55,6 +63,7 @@ label a2s4:
     c "I didn't think it was a coincidence but we have pictures of him associating with high level Triad members, and now the cyber attack on you."
 
     c "Don't worry. We'll get him. I'll contact you soon."
+    hide cleo
 
     #honk Sounds
     "*car honk*"
@@ -63,19 +72,20 @@ label a2s4:
 
     a "**Who is this Cleo person? Another mystery I'll have to figure out as soon as I get out of this mess.**"
 
-    hide eileen happy
-    hide bgroom
-
-    screen bgroom
-    show eileen happy
+    screen bg bank
+    with fade
+    show adam neutral at left
 
     a "**Looks like no one recognized me yet. Maybe they don't have a picture. I should be safe.**"
 
     a "**I need to get to the front desk or maybe I should just wait in the lobby.**"
 
+    show helpNISB
     hw "You must be Adam. Don't look so shocked. A mutual friend of ours sent me here."
 
+    show adam talking
     a "Ahh. Hi. I'm not sure what I can do."
+    show adam neutral
 
     hw "Don't worry. As long as you have this laptop, everything will be fine. "
 
@@ -85,16 +95,24 @@ label a2s4:
         hw "Are you ready?"
 
         "Yes" :
+            show adam talking
             a "Yeah, I guess. What are we doing?"
+            show adam neutral
 
         "No" :
+            show adam talking
             a "No, I think I'll go home actually."
+            show adam neutral
             hw "Hah, funny. Let's get started."
+            show adam talking
             a "Fine.. What are we doing?"
+            show adam neutral
 
     hw "Not just us, but in a few seconds the police will arrive to arrest Gabriel Andrews."
 
+    show adam talking
     a "Wait, are you kidding?"
+    show adam neutral
 
     hw "Look, the police are arriving now."
 
@@ -104,12 +122,15 @@ label a2s4:
 
     "*running sounds*"
 
+    show gabriel evil at right
     ga "Wait, what are you doing? What have I done?"
 
     ga "No, it can't be. You won't get away with this kid."
 
-    hide eileen happy
-    hide bgroom
+    hide gabriel
+    hide adam
+    hide helpNISB
+    scene black
 
     a "**And just like that, the NISB officers asked me for the laptop that I was carrying and just as Cleo said, it helped.**"
 
@@ -123,15 +144,15 @@ label a2s4:
 
     a "**It felt like I was in a movie. A scripted scene. Whatever Cleo said and the timing of it all worker out so well. **"
 
-    a "I never did get the chance to ask the agent how they knew Cleo or who they even are."
+    a "**I never did get the chance to ask the agent how they knew Cleo or who they even are.**"
 
-    scene bgroom
+    scene bg apartment2
 
     "...typing"
 
     "*email ding*"
 
-    show eileen happy
+    show adam neutral
 
     a "**Looks like I got an email.**"
 
@@ -155,6 +176,8 @@ label a2s4:
 
     "???" "Hello?"
 
+    show adam talking
     a "Hey mom."
+    show adam neutral
 
     return
