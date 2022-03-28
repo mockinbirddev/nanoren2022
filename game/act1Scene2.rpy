@@ -68,7 +68,7 @@ label a1s2:
     It's our last semester, don't worry too much about it."
     show finn neutral
 
-    "*short silence*"
+    pause(.5)
 
     show finn talking
     f "You haven't been thinking... that again...{p}
@@ -118,7 +118,7 @@ label a1s2:
     I haven't been focusing a lot at school lately and all I wanna do is keep exploring the world from my computer."
     a "My dad said this holds the key to finding the answers I'm looking for. But what am I loking for?"
 
-    ##with hpunch for right and left -- apparently this shakes the screen?
+    show bg classroom with vpunch
     ##stop music
     ##play sound intenseMusic.mp3?
     show teach neutral at right

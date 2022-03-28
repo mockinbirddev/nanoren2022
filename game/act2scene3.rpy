@@ -5,7 +5,7 @@ label a2s3:
 
     #typing noises
 
-    scene bgroom
+    scene bg apartment2
 
     "...typing noises"
 
@@ -40,7 +40,7 @@ label a2s3:
     a "**Wanted for embezzlement and money laundering. It this a person or a crew? It really doesn't say.**"
 
     #screen shake
-    "..shake"
+    show bg apartment2 with vpunch
 
     a "**Wait what's going on? Is someone attacking me? Oh no, it better not be I-504 again. Wait a minute. What's with this name. I can't read it. Is it someone else?**"
 
@@ -53,7 +53,7 @@ label a2s3:
     s "You're good but you're not that good. Watch this. Though, I can't get your exact location now, I can do this. This isn't the pinnacle of my power, but I'm sure it will give you some idea of what I'm capable of."
 
     #screen shakes
-    "..shake"
+    show bg apartment2 with vpunch
 
     a "**What's this? Is my computer frozen? No, I still see stuff happening. The terminal is running but I can't do anything.**"
 
@@ -83,7 +83,7 @@ label a2s3:
 
     a "**This is not good...**"
 
-    "..shake"
+    show bg apartment2 with vpunch
 
     a "**Another message? What is this? Cleo? God damnit, I don't have time for this. I need to get out of here.**"
 

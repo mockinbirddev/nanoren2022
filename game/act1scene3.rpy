@@ -59,13 +59,13 @@ label a1s3:
 
     a "**C's and D's. I should make it somewhat realistic, so let's put some B's and an A in gym. I don't know how I would get a C in P.E., but an A will suffice.**"
 
-    "..shake"
+    show bg computerLab with vpunch
 
     #enter lab assistant
     show labAss neutral at right
     la "Hey, what's going on here? What are you doing?"
 
-    "..shake"
+    show bg computerLab with vpunch
 
     la "What is this? Oh boy, you're in so much trouble."
     hide labAss
@@ -74,8 +74,6 @@ label a1s3:
 
     scene bg bedroom
     with fade
-
-    "*in bedroom*"
 
     mom "What were you thinking? You think you can just change your grades and get away with it?"
 
@@ -95,7 +93,7 @@ label a1s3:
     show leon angry
     l "Why you..."
 
-    "..shake"
+    show bg bedroom with vpunch
 
     show leon neutral
     show adam talking
@@ -129,7 +127,7 @@ label a1s3:
     a "No, forget it. If this is what you want then this is it. I am out of here."
     show adam neutral
 
-    "..shake"
+    show bg bedroom with vpunch
 
     show mom upset
     mom "Stop! What are you doing?"
@@ -152,13 +150,13 @@ label a1s3:
 
     "Leon walks towards computer."
 
-    "..shake"
+    show bg bedroom with vpunch
 
     show adam angry
     a "Leave my Dad's stuff alone!"
     show adam neutral
 
-    "..shake"
+    show bg bedroom with vpunch
 
     show adam talking
     a "I'm sorry Mom, but this is for the best. I can't stay here. As long as you have Leon under this roof, I will never come back."

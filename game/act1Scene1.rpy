@@ -1,16 +1,8 @@
-﻿# The script of the game goes in this file.
-
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-define lm = Character("Leon and Ms. Martinez")
-# The game starts here.
-
-label a1s1:
+﻿label a1s1:
 
     play music badSequential volume 0.2
-    "*alarm is ringing.......*{p}
-    ......continues ringing."
+
+    "*alarm is ringing.......*{p}......continues ringing."#was originally one line but split to two to create space
     mom "Adam! Get up! You're going to be late."
     "*knocking scene*"
     a "*sigh*{p}Dad, why did you have to leave...{p}Maybe this wouldn't be such a problem if you were still here.{p}It's all mom's fault."
@@ -57,7 +49,9 @@ label a1s1:
     hide adam
     hide leon
     hide mom
-    show bg apartment1 with vpunch ##shakes screen
+
+    show bg apartment1 with vpunch
+
     show adam neutral at right
     a "Ouch..."
 
@@ -76,7 +70,7 @@ label a1s1:
     hide adam
 
     mom "Why are you always so hard on him?"
-    l "that boy needs to learn some manners.{p}Damn kids these days....{p}Is breakfast ready?"
+    l "That boy needs to learn some manners.{p}Damn kids these days....{p}Is breakfast ready?"
 
     # This ends the game.
     return

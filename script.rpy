@@ -38,12 +38,12 @@ image labAss neutral = "nerd.jpg"
 
 #bg
 image black = "#000"
-image bg apartment1 = "modernBG/18_condo_10/condo_Day 01.jpg"
-image bg apartment2 = "modernBG/18_condo_10/condo_day 05.jpg"
-image bg bedroom = "bedroom.jpg"
-image bg busStop = "bus_station.jpg"
-image bg classroom = "classroom.jpg"
-image bg computerLab = "modernBG/that_couch.jpg"
+image bg apartment1 = im.Scale("modernBG/18_condo_10/condo_Day 01.jpg", 1280, 720)
+image bg apartment2 = im.Scale("modernBG/18_condo_10/condo_day 05.jpg", 1280, 720)
+image bg bedroom = im.Scale("bedroom.jpg", 1280, 720)
+image bg busStop = im.Scale("bus_station.jpg", 1280, 720)
+image bg classroom = im.Scale("classroom.jpg", 1280, 720)
+image bg computerLab = im.Scale("modernBG/that_couch.jpg", 1280, 720)
 
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
@@ -56,14 +56,20 @@ define mom = Character("Ms. Martinez")
 define l = Character("Leon")
 define lm = Character("Leon and Ms. Martinez")
 
+#audio
+define audio.badSequential = "audio/BadSequential.mp3"
+define audio.fanfare = "audio/Fanfare.mp3"
+define audio.tetheredFate = "audio/TetheredFate.mp3"
+
 # The game starts here.
 
 label start:
 
-    #call prologue
+    #act 1
     call a1s1
     call a1s2
     call a1s3
+    #act 2
     call a2s1
     call a2s2
     call a2s3
