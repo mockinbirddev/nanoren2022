@@ -205,7 +205,7 @@ label a1s3:
 
     a "**Dad... what should I do?**"
 
-    hide bg
+    scene black
     with fade
     hide adam
 

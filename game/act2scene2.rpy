@@ -59,7 +59,8 @@ label a2s2:
     #show bank worker, nisb and Adam
     show banker at right
     bw "Hello there, is there anything I can help you with?"
-
+    show nisb
+    show adam neutral at left
     nisb "Yes, is it okay if I can speak to your manager, as well as someone who helps run your IT department here?"
 
     bw "For any particular reason?"

@@ -94,15 +94,22 @@ label a1s2:
     scene bg classroom
     with fade
 
+    show classA at left
     c1 "Did you guys see the new episode last night?"
+    show classB
     c2 "Oh my gosh. No. Did you see it?"
     c1 "No. Not yet, hopefully no one has and ruins it for everyone."
+    show classC at right
     c3 "The girl died."
     c12 "WHAT!"
     c1 "Why you have to be like that?{p}
     We haven't even seen it yet."
     c3 "Shouldn't have been talking about it."
     c2 "You're a jerk!"
+
+    hide classA
+    hide classB 
+    hide classC
 
     ##play sound bellRing.mp3 - add in later
     show teach neutral at right

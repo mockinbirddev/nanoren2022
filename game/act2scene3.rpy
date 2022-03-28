@@ -76,6 +76,8 @@ label a2s3:
 
     a "**Wait a minute... It can't be him right. But from what he's saying it has to be. Gabriel Andrews. He's behind this?**"
 
+    hide snake
+    show gabriel evil at left
     s "You may have figured out who I am, but there is no way you are going to stop me. I worked too long to get this far and be stopped by a child."
 
     s "This money is rightfully mine, and I will continue earning as long as I am alive and well. The bad news is that I'm about to get to you so you won't be able to tell anyone a thing."
@@ -85,7 +87,7 @@ label a2s3:
     s "If you left it laone and returned the money back we wouldn't have had any problems."
 
     s "But it's okay. I could have hacked the money back but I'm leaving it in there as evidence that you stole from the bank. Have a wonderful life Adam, I'll see you soon."
-    hide snake
+    hide gabriel
 
     a "**This is not good...**"
 

@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "act1scene3.rpy", line 177: u'a' is not a keyword argument or valid child for the screen statement.
-    screen bg a
+File "game/act1Scene2.rpy", line 110: end of line expected.
+    hide classA, classB, classC
                ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Tue Mar 22 13:55:19 2022
+Mon Mar 28 13:54:13 2022

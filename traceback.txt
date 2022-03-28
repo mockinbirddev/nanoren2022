@@ -1,19 +1,19 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <'Image' u'images/modernBG/18_condo_10/condo_Day01.jpg'>:
-  File "script.rpy", line 56, in script call
-    call a1s1
-  File "act1Scene1.rpy", line 40, in script
-    l "Damn boy. What took you so long?"
-IOError: Couldn't find file 'images/modernBG/18_condo_10/condo_Day01.jpg'.
+While loading <'Image' u'nerd.jpg'>:
+  File "game/script.rpy", line 68, in script call
+    call a1s3
+  File "game/act1scene3.rpy", line 66, in script
+    la "Hey, what's going on here? What are you doing?"
+IOError: Couldn't find file 'nerd.jpg'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "script.rpy", line 56, in script call
-    call a1s1
-  File "act1Scene1.rpy", line 40, in script
-    l "Damn boy. What took you so long?"
+  File "game/script.rpy", line 68, in script call
+    call a1s3
+  File "game/act1scene3.rpy", line 66, in script
+    la "Hey, what's going on here? What are you doing?"
   File "renpy/ast.py", line 721, in execute
     renpy.exports.say(who, what, *args, **kwargs)
   File "renpy/exports.py", line 1419, in say
@@ -62,9 +62,9 @@ Full traceback:
     surf = image.load()
   File "renpy/display/im.py", line 706, in load
     raise e
-IOError: Couldn't find file 'images/modernBG/18_condo_10/condo_Day01.jpg'.
+IOError: Couldn't find file 'nerd.jpg'.
 
 Windows-10-10.0.19041
 Ren'Py 7.4.11.2266
 Echoes That Sings 1.0
-Tue Mar 22 13:06:46 2022
+Mon Mar 28 13:39:44 2022

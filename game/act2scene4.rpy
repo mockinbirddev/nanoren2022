@@ -72,7 +72,7 @@ label a2s4:
 
     a "**Who is this Cleo person? Another mystery I'll have to figure out as soon as I get out of this mess.**"
 
-    screen bg bank
+    scene bg bank
     with fade
     show adam neutral at left
 
