@@ -83,27 +83,30 @@ define audio.badSequential = "audio/BadSequential.mp3"
 define audio.fanfare = "audio/Fanfare.mp3"
 define audio.tetheredFate = "audio/TetheredFate.mp3"
 
-# The game starts here.
-
-#sound effects from freesound.org; copyright to their respective artists/owners
+#sound effects from fesliyanstudios.com, pixabay.com, freesound.org; copyright to their respective artists/owners
 define sound.typing = "audio/typing.mp3"
 define sound.alarm = "audio/alarm.wav"
-define sound.knock = "audio/knock.wav"
+define sound.knock = "audio/knocking.mp3"
 define sound.boot = "audio/boot.wav"
 define sound.punch = "audio/punch.mp3"
-define sound.wood = "audio/wood.mp3" 
+define sound.wood = "audio/wood.mp3"
 define audio.outside = "audio/outside.wav"
 define sound.talking = "audio/talking.wav"
 define sound.laugh = "audio/laugh.wav"
-define sound.bell = "audio/bell.mp3" 
-define sound.beep = "audio/beep.mp3" 
+define sound.bell = "audio/bell.mp3"
+define sound.beep = "audio/beep.mp3"
 define sound.phone = "audio/phone.wav"
 define sound.honk = "audio/honk.wav"
 define sound.siren ="audio/siren.mp3"
 define sound.running ="audio/running.wav"
+define sound.dramatic ="audio/dramatic.mp3"
+define sound.dooropen ="audio/dooropen.wav"
 
+#effects
+define fade = Fade(0.5, 0.0, 0.5)
+
+# The game starts here.
 label start:
-
     #act 1
     call a1s1
     call a1s2

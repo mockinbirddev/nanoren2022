@@ -1,7 +1,7 @@
 # The game starts here.
 
 label a2s1:
-    play music tetheredFate
+    play music tetheredFate volume 0.2
     "...Typing"
     play sound typing volume 0.2
 
@@ -151,7 +151,7 @@ label a2s1:
     f "Yeah man, I guess changing grades is considered a serious federal crime or something. They said you weren't home, so where are you?"
     show finn neutral
 
-    a "* I'm pretty sure they were there about the bank transactions... *"
+    a "(I'm pretty sure they were there about the bank transactions... )"
 
     show adam talking
     a "Actually, about that. I got my own place not too far from home. It's pretty affordable."
@@ -179,7 +179,7 @@ label a2s1:
     #click sound for phone hang up
     "*click*"
 
-    a "*But first, there's something I gotta do."
+    a "(But first, there's something I gotta do.)"
 
     # This ends the game.
 

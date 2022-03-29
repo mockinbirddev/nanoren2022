@@ -91,8 +91,7 @@ label a1s2:
     hide finn
     hide adam
 
-    scene bg classroom
-    with fade
+    scene bg classroom with fade
     stop music
     play sound talking volume 0.2
     pause (2)
@@ -114,7 +113,7 @@ label a1s2:
     pause (2)
 
     hide classA
-    hide classB 
+    hide classB
     hide classC
     show teach neutral at right
     t "Everybody take your seats.{p}
@@ -127,9 +126,10 @@ label a1s2:
     I've never been this apathetic but ever since then life hasn't been that good to me."
     a "Maybe someone would call this depression but I'm well aware of how I am feeling.{p}
     I haven't been focusing a lot at school lately and all I wanna do is keep exploring the world from my computer."
-    a "My dad said this holds the key to finding the answers I'm looking for. But what am I loking for?"
+    a "My dad said this holds the key to finding the answers I'm looking for. But what am I looking for?"
 
-    play sound punch
+    play sound punch volume 0.4
+    pause(1)
     show bg classroom with vpunch
     ##stop music
     play music tetheredFate volume 0.2
@@ -140,7 +140,7 @@ label a1s2:
     a "What question?"
     show adam neutral
 
-    play sound laugh
+    play sound laugh volume 0.4
     t "Adam, if you're not going to pay attention how are you going to graduate?{p}Do you even know what the real world is going to do you if you're not prepared?"
 
     show adam talking

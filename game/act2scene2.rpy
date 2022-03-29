@@ -7,7 +7,7 @@ define bm = Character("Bank Manager")
 label a2s2:
 
     #play lobby music
-    play music badSequential
+    play music badSequential volume 0.2
 
     #transition to the nisb office
     scene bg office
@@ -20,7 +20,7 @@ label a2s2:
     a "Hi, my name is Finn and no. I would like to speak to someone in charge of the county's network security here."
     show adam neutral
 
-    a "** I think I am wanted but I want to make sure I don't get caught before I get to the bottom of this. **"
+    a "( I think I am wanted but I want to make sure I don't get caught before I get to the bottom of this. )"
 
     nisb "I don't think I can squeeze you in for someone like that. What would be the purpose?"
 
@@ -73,7 +73,7 @@ label a2s2:
     bw "Not to my knowledge, no. But excuse me while I fetch them."
     hide banker
 
-    a "**I wonder if my dad was working with NISB before. Internet police sounds really cool.**"
+    a "(I wonder if my dad was working with NISB before. Internet police sounds really cool.)"
 
     #sounds of door opening
     #enter new characters
@@ -137,20 +137,20 @@ label a2s2:
     with dissolve
     "Gabriel walks away."
 
-    a "**There's something about him that I can't shake.**"
+    a "(There's something about him that I can't shake.)"
 
-    a "**He has a menacing aura around him and he just came out of nowhere. What's more is he didn't want to complete the inquiry.**"
+    a "(He has a menacing aura around him and he just came out of nowhere. What's more is he didn't want to complete the inquiry.)"
 
-    a "**What is his plan?**"
+    a "(What is his plan?)"
 
     "..."
 
-    a "**Why is he shaking everyone's hand here?**"
+    a "(Why is he shaking everyone's hand here?)"
 
-    a "**Wait a minute. What is that near his sleeve?**"
+    a "(Wait a minute. What is that near his sleeve?)"
 
-    a "**I can't believe it! It looks like a tongue of a snake. There's no way. A coincidental tattoo? I don't think so.**"
+    a "(I can't believe it! It looks like a tongue of a snake. There's no way. A coincidental tattoo? I don't think so.)"
 
-    a "**Who is this Gabriel Andrews really? I wonder how thick the NISB network really is.**"
+    a "(Who is this Gabriel Andrews really? I wonder how thick the NISB network really is.)"
 
     return
