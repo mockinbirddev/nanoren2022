@@ -180,4 +180,20 @@ label a2s4:
     a "Hey mom."
     show adam neutral
 
+    scene black with dissolve
+    pause (2)
+    "Thank you for playing..."
+    "Echoes that Sing was written by DJKNITEX and developed by the mockinbird.dev team for nanoren 2022"
+    "The team consisted of.."
+    "Jenna - Artist"
+    "Mei - Background Artist"
+    "Sawada14 - Main Coder"
+    "Mendoxee - Coder"
+    "oozy_q - Music"
+    "Our credits for assets will be included in the README but we would like to offer quick thanks to:"
+    "freepik for the title screen flower and "
+    "the number of resources we gather from the Ren'py forums: Lemma soft Forums"
+    "THE END"
+    pause(2)
+
     return

@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/act1Scene2.rpy", line 110: end of line expected.
-    hide classA, classB, classC
-               ^
+File "game/tl/None/common.rpym", line 490: previous string is missing a translation
+    old "display"
+       ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Mon Mar 28 13:54:13 2022
+Mon Mar 28 18:29:17 2022
