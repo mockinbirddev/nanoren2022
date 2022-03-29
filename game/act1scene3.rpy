@@ -2,8 +2,10 @@ define la = Character("Lab Assistant")
 label a1s3:
 
     scene bg computerLab
+    play music badSequential volume 0.2
 
     "..typing"
+    play sound typing
 
     show adam neutral
 
@@ -60,12 +62,16 @@ label a1s3:
     a "**C's and D's. I should make it somewhat realistic, so let's put some B's and an A in gym. I don't know how I would get a C in P.E., but an A will suffice.**"
 
     show bg computerLab with vpunch
+    play sound punch volume 0.2
 
     #enter lab assistant
     show labAss neutral at right
     la "Hey, what's going on here? What are you doing?"
 
+    play music tetheredFate volume 0.2
+
     show bg computerLab with vpunch
+    play sound punch volume 0.2
 
     la "What is this? Oh boy, you're in so much trouble."
     hide labAss
@@ -94,6 +100,7 @@ label a1s3:
     l "Why you..."
 
     show bg bedroom with vpunch
+    play sound punch volume 0.2
 
     show leon neutral
     show adam talking
@@ -128,6 +135,7 @@ label a1s3:
     show adam neutral
 
     show bg bedroom with vpunch
+    play sound punch volume 0.2
 
     show mom upset
     mom "Stop! What are you doing?"
@@ -151,12 +159,14 @@ label a1s3:
     "Leon walks towards computer."
 
     show bg bedroom with vpunch
+    play sound punch volume 0.2
 
     show adam angry
     a "Leave my Dad's stuff alone!"
     show adam neutral
 
     show bg bedroom with vpunch
+    play sound punch volume 0.2
 
     show adam talking
     a "I'm sorry Mom, but this is for the best. I can't stay here. As long as you have Leon under this roof, I will never come back."
@@ -190,6 +200,7 @@ label a1s3:
     a "**I've been using it as my handle when I'm surfing the internet.**"
 
     "*ding*"
+    play sound beep volume 0.2
 
     a "**What is this? An email from \"I-504?\" I've never heard of them. Let's see what it says.**"
 

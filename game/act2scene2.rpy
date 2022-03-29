@@ -7,6 +7,7 @@ define bm = Character("Bank Manager")
 label a2s2:
 
     #play lobby music
+    play music badSequential
 
     #transition to the nisb office
     scene bg office

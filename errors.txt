@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/tl/None/common.rpym", line 490: previous string is missing a translation
-    old "display"
-       ^
+File "game/act2scene1.rpy", line 6: expected end of line
+    play sound typing 0.2
+                      ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Mon Mar 28 18:29:17 2022
+Tue Mar 29 09:45:50 2022

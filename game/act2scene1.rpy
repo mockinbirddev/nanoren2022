@@ -1,8 +1,9 @@
 # The game starts here.
 
 label a2s1:
-
+    play music tetheredFate
     "...Typing"
+    play sound typing volume 0.2
 
     a "What's going on?"
 
@@ -69,7 +70,7 @@ label a2s1:
 
     a "What is this?"
 
-    a "Let me see who onws these accounts."
+    a "Let me see who owns these accounts."
 
     "..."
 
@@ -107,8 +108,10 @@ label a2s1:
 
     a "I need to call Finn. I should tell him what's going on."
 
-    #play phone sound here
+    play sound phone volume 0.2
     "*ring ring ring*"
+    pause 3
+    stop sound
 
     show finn talking at left
     f "Hello?"

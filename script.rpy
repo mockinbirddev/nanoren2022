@@ -83,6 +83,11 @@ define audio.badSequential = "audio/BadSequential.mp3"
 define audio.fanfare = "audio/Fanfare.mp3"
 define audio.tetheredFate = "audio/TetheredFate.mp3"
 
+#sound effects from freesound.org; copyright to their respective artists/owners
+define sound.typing = "audio/typing.wav"
+define sound.alarm = "audio/alarm.wav"
+
+
 # The game starts here.
 
 label start:

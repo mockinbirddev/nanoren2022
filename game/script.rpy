@@ -85,6 +85,23 @@ define audio.tetheredFate = "audio/TetheredFate.mp3"
 
 # The game starts here.
 
+#sound effects from freesound.org; copyright to their respective artists/owners
+define sound.typing = "audio/typing.mp3"
+define sound.alarm = "audio/alarm.wav"
+define sound.knock = "audio/knock.wav"
+define sound.boot = "audio/boot.wav"
+define sound.punch = "audio/punch.mp3"
+define sound.wood = "audio/wood.mp3" 
+define audio.outside = "audio/outside.wav"
+define sound.talking = "audio/talking.wav"
+define sound.laugh = "audio/laugh.wav"
+define sound.bell = "audio/bell.mp3" 
+define sound.beep = "audio/beep.mp3" 
+define sound.phone = "audio/phone.wav"
+define sound.honk = "audio/honk.wav"
+define sound.siren ="audio/siren.mp3"
+define sound.running ="audio/running.wav"
+
 label start:
 
     #act 1

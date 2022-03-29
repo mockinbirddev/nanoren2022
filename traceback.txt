@@ -1,56 +1,44 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-After initialization, but before game start.
-  File "game/screens.rpy", line 546, in prepare_screen
-    screen about():
-  File "game/screens.rpy", line 546, in prepare
-    screen about():
-  File "game/screens.rpy", line 553, in prepare
-    use game_menu(_("About"), scroll="viewport"):
-  File "game/screens.rpy", line 553, in prepare
-    use game_menu(_("About"), scroll="viewport"):
-  File "game/screens.rpy", line 557, in prepare
-    vbox:
-  File "game/screens.rpy", line 557, in prepare
-    vbox:
-  File "game/screens.rpy", line 566, in prepare
-    text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]" \n)
-SyntaxError: unexpected character after line continuation character (screens.rpy, line 566)
+While running game code:
+  File "game/script.rpy", line 99, in script call
+    call a1s1
+  File "game/act1Scene1.rpy", line 33, in script
+    play sound wood volume 0.2
+  File "renpy/common/000statements.rpy", line 300, in execute_play_sound
+    renpy.sound.play(_audio_eval(p["file"]),
+  File "renpy/common/000statements.rpy", line 32, in _audio_eval
+    return eval(expr, locals=store.audio.__dict__)
+  File "game/act1Scene1.rpy", line 33, in <module>
+    play sound wood volume 0.2
+NameError: name 'wood' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "C:\Users\djkni\Downloads\renpy-7.4.11-sdk/renpy/bootstrap.py", line 331, in bootstrap
-    renpy.main.main()
-  File "C:\Users\djkni\Downloads\renpy-7.4.11-sdk/renpy/main.py", line 662, in main
-    run(restart)
-  File "C:\Users\djkni\Downloads\renpy-7.4.11-sdk/renpy/main.py", line 97, in run
-    renpy.display.screen.prepare_screens()
-  File "C:\Users\djkni\Downloads\renpy-7.4.11-sdk/renpy/display/screen.py", line 955, in prepare_screens
-    s.ast.prepare_screen()
-  File "game/screens.rpy", line 546, in prepare_screen
-    screen about():
-  File "game/screens.rpy", line 546, in prepare
-    screen about():
-  File "game/screens.rpy", line 553, in prepare
-    use game_menu(_("About"), scroll="viewport"):
-  File "game/screens.rpy", line 553, in prepare
-    use game_menu(_("About"), scroll="viewport"):
-  File "game/screens.rpy", line 557, in prepare
-    vbox:
-  File "game/screens.rpy", line 557, in prepare
-    vbox:
-  File "game/screens.rpy", line 566, in prepare
-    text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]" \n)
-  File "C:\Users\djkni\Downloads\renpy-7.4.11-sdk/renpy/pyanalysis.py", line 714, in ast_eval
-    return self.ast_eval_literal(expr)[0]
-  File "C:\Users\djkni\Downloads\renpy-7.4.11-sdk/renpy/pyanalysis.py", line 696, in ast_eval_literal
-    expr = py_compile(expr, 'eval', ast_node=True)
-  File "C:\Users\djkni\Downloads\renpy-7.4.11-sdk/renpy/python.py", line 835, in py_compile
-    raise e
-SyntaxError: unexpected character after line continuation character (screens.rpy, line 566)
+  File "game/script.rpy", line 99, in script call
+    call a1s1
+  File "game/act1Scene1.rpy", line 33, in script
+    play sound wood volume 0.2
+  File "C:\Users\djkni\Downloads\renpy\renpy-7.4.11-sdk/renpy/ast.py", line 2015, in execute
+    self.call("execute")
+  File "C:\Users\djkni\Downloads\renpy\renpy-7.4.11-sdk/renpy/ast.py", line 2003, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "C:\Users\djkni\Downloads\renpy\renpy-7.4.11-sdk/renpy/statements.py", line 278, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 300, in execute_play_sound
+    renpy.sound.play(_audio_eval(p["file"]),
+  File "renpy/common/000statements.rpy", line 32, in _audio_eval
+    return eval(expr, locals=store.audio.__dict__)
+  File "C:\Users\djkni\Downloads\renpy\renpy-7.4.11-sdk/renpy/python.py", line 2276, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\djkni\Downloads\renpy\renpy-7.4.11-sdk/renpy/python.py", line 2269, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/act1Scene1.rpy", line 33, in <module>
+    play sound wood volume 0.2
+NameError: name 'wood' is not defined
 
 Windows-10-10.0.22000
 Ren'Py 7.4.11.2266
 Echoes That Sing 1.0
-Mon Mar 28 18:39:09 2022
+Tue Mar 29 09:24:35 2022

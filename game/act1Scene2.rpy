@@ -12,7 +12,7 @@ define t =Character("Teacher")
 # The game starts here.
 
 label a1s2:
-    ##play sound somberMusic.mp3 -- add in later
+    play music outside volume 1
     ##with fade
     scene bg busStop
 
@@ -64,7 +64,7 @@ label a1s2:
     show adam neutral
 
     show finn talking
-    f "Yeah well foget them.{p}
+    f "Yeah well forget them.{p}
     It's our last semester, don't worry too much about it."
     show finn neutral
 
@@ -93,6 +93,9 @@ label a1s2:
 
     scene bg classroom
     with fade
+    stop music
+    play sound talking volume 0.2
+    pause (2)
 
     show classA at left
     c1 "Did you guys see the new episode last night?"
@@ -106,12 +109,13 @@ label a1s2:
     We haven't even seen it yet."
     c3 "Shouldn't have been talking about it."
     c2 "You're a jerk!"
+    stop sound
+    play sound bell volume 0.2
+    pause (2)
 
     hide classA
     hide classB 
     hide classC
-
-    ##play sound bellRing.mp3 - add in later
     show teach neutral at right
     t "Everybody take your seats.{p}
     We will begin from page 37 today so please take out your textbooks."
@@ -125,9 +129,10 @@ label a1s2:
     I haven't been focusing a lot at school lately and all I wanna do is keep exploring the world from my computer."
     a "My dad said this holds the key to finding the answers I'm looking for. But what am I loking for?"
 
+    play sound punch
     show bg classroom with vpunch
     ##stop music
-    ##play sound intenseMusic.mp3?
+    play music tetheredFate volume 0.2
     show teach neutral at right
     t "Adam, are you going to answer the question?"
 
@@ -135,7 +140,7 @@ label a1s2:
     a "What question?"
     show adam neutral
 
-    ##play sound laughingSound.mp3
+    play sound laugh
     t "Adam, if you're not going to pay attention how are you going to graduate?{p}Do you even know what the real world is going to do you if you're not prepared?"
 
     show adam talking

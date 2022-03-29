@@ -2,12 +2,14 @@ define s = Character("The Snake")
 # The game starts here.
 
 label a2s3:
-
+    play music tetheredFate volume 0.2
     #typing noises
 
     scene bg apartment2
 
     "...typing noises"
+    play sound typing volume 0.2
+    pause(2)
 
     show adam neutral
     a "**I booted up my computer and I enabled another layer of security before I begin my mission.**"
@@ -42,6 +44,7 @@ label a2s3:
 
     #screen shake
     show bg apartment2 with vpunch
+    play sound punch volume 0.2
 
     a "**Wait what's going on? Is someone attacking me? Oh no, it better not be I-504 again. Wait a minute. What's with this name. I can't read it. Is it someone else?**"
 
@@ -92,6 +95,8 @@ label a2s3:
     a "**This is not good...**"
 
     show bg apartment2 with vpunch
+
+    play sound beep volume 0.2
 
     a "**Another message? What is this? Cleo? God damnit, I don't have time for this. I need to get out of here.**"
 

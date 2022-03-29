@@ -1,10 +1,13 @@
 ﻿label a1s1:
 
     play music badSequential volume 0.2
-
+    play sound alarm volume 0.2
     "*alarm is ringing.......*{p}......continues ringing."#was originally one line but split to two to create space
     mom "Adam! Get up! You're going to be late."
+    stop sound
+    play sound knock volume 0.2
     "*knock knock knock*"
+    stop sound
     a "*sigh*{p}Dad, why did you have to leave...{p}Maybe this wouldn't be such a problem if you were still here.{p}It's all mom's fault."
     a "I'm getting up Mom. Don't worry."
     l "That's right boy. Don't make me come in there again."
@@ -16,17 +19,19 @@
     show adam neutral
     with fade
     a "I guess I should check my email before I leave. I wonder what is new in the digital world."
-    #play sound computerBooting.mp3 -- add in later
+    play sound boot volume 0.2
     a "I'm glad I convinced Mom to keep this computer. She never really liked this stuff, but it's the only way for me to feel closer to you."
     a "But now I feel more alone than ever.{p}No one really gets me, and Mom's boyfriend is always over."
     a "I can't see how she can quickly move on like that.{p}It just happened so fast."
+    stop sound
     a "*sighs*"
     a "But thanks to you Dad, I'm able to learn more about what is going on out there than I would have if I had to do this on my own."
     a "Of course, life would have been much clearer for me if youre were still here.{p}But I won't let you down.{p}There's nothing here in this world that can bring me down."
     ##scene bg room #show black scene -- addin later
     hide adam neutral
     scene bg apartment1
-    ##play sound walkingSound.mp3
+    play sound wood volume 0.2
+    pause (2)
     ##with fade
     show leon neutral
     with fade
@@ -49,6 +54,7 @@
     hide leon
     hide mom
 
+    play sound punch volume 0.2
     show bg apartment1 with vpunch
 
     show adam neutral at right

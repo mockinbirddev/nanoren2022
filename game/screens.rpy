@@ -569,7 +569,7 @@ screen about():
             text _("Main Coder - Sawada14 \nCoder - Mendoxee \nWriter - DJKNITEX \nCharacter Artist - Jenna\nAdditional Artist - MeiYS\nMusic - oozy_q\n")
 
             label "Asset Credits"
-            text _("Background Images - Uncle Mugen (ren'py forums)\nAdditional Images - tofurocks\nTitle Screen - freepik \n")
+            text _("Background Images - Uncle Mugen (ren'py forums)\nAdditional Images - tofurocks\nTitle Screen - freepik \nAdditional Sounds - freesound.org")
 
 
 style about_label is gui_label

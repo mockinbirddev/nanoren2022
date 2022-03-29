@@ -4,6 +4,8 @@ label a2s4:
     scene bg park
     with fade
 
+    play music badSequential
+
     show adam neutral
     a "*panting*"
 
@@ -66,6 +68,8 @@ label a2s4:
     hide cleo
 
     #honk Sounds
+    play sound honk volume 0.2
+
     "*car honk*"
 
     a "**Wow. I guess this is it.**"
@@ -114,16 +118,17 @@ label a2s4:
     a "Wait, are you kidding?"
     show adam neutral
 
+
     hw "Look, the police are arriving now."
 
-    #cop sirens
 
-    "*wee-woo*"
+    play sound siren
+    pause 2
 
-    "*running sounds*"
+    play sound running
 
     show gabriel evil at right
-    ga "Wait, what are you doing? What have I done?"
+    ga "Wait, what are you doing? Why are you coming at me?"
 
     ga "No, it can't be. You won't get away with this kid."
 
@@ -131,6 +136,7 @@ label a2s4:
     hide adam
     hide helpNISB
     scene black
+    play sound fanfare volume 0.2
 
     a "**And just like that, the NISB officers asked me for the laptop that I was carrying and just as Cleo said, it helped.**"
 
@@ -149,8 +155,10 @@ label a2s4:
     scene bg apartment2
 
     "...typing"
+    play sound typing volume 0.2
 
     "*email ding*"
+    play sound beep
 
     show adam neutral
 
@@ -172,7 +180,8 @@ label a2s4:
 
     a "**But there is one more thing I should do...**"
 
-    "*ring ring ring...*"
+    play sound phone volume 0.2
+    pause 5
 
     "???" "Hello?"
 
