@@ -4,14 +4,13 @@
 
     "*alarm is ringing.......*{p}......continues ringing."#was originally one line but split to two to create space
     mom "Adam! Get up! You're going to be late."
-    "*knocking scene*"
+    "*knock knock knock*"
     a "*sigh*{p}Dad, why did you have to leave...{p}Maybe this wouldn't be such a problem if you were still here.{p}It's all mom's fault."
     a "I'm getting up Mom. Don't worry."
     l "That's right boy. Don't make me come in there again."
 
     a "If only things were different..."
 
-    "*random scenes of arguing can be heard*"
     show bg bedroom
     with fade
     show adam neutral

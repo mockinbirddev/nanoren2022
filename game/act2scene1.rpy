@@ -2,7 +2,7 @@
 
 label a2s1:
 
-    "...Typing can be heard"
+    "...Typing"
 
     a "What's going on?"
 

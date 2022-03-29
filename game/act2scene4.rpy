@@ -172,7 +172,7 @@ label a2s4:
 
     a "**But there is one more thing I should do...**"
 
-    "*phone ring*"
+    "*ring ring ring...*"
 
     "???" "Hello?"
 
