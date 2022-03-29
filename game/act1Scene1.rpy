@@ -1,44 +1,38 @@
-﻿# The script of the game goes in this file.
-
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-define lm = Character("Leon and Ms. Martinez")
-# The game starts here.
-
-label a1s1:
-
-    play music badSequential volume 0.2
-    "*alarm is ringing.......*{p}
-    ......continues ringing."
+﻿label a1s1:
+    stop music
+    play sound alarm volume 0.2
+    "*alarm is ringing.......*{p}......continues ringing."#was originally one line but split to two to create space
     mom "Adam! Get up! You're going to be late."
-    "*knocking scene*"
+    stop sound
+    play sound knocking volume 0.2
+    "*knock knock knock*"
+    stop sound
     a "*sigh*{p}Dad, why did you have to leave...{p}Maybe this wouldn't be such a problem if you were still here.{p}It's all mom's fault."
     a "I'm getting up Mom. Don't worry."
     l "That's right boy. Don't make me come in there again."
 
     a "If only things were different..."
 
-    "*random scenes of arguing can be heard*"
-    show bg bedroom
-    with fade
-    show adam neutral
-    with fade
+    play music badSequential volume 0.2
+    show bg bedroom with fade
+
+    show adam neutral with fade
     a "I guess I should check my email before I leave. I wonder what is new in the digital world."
-    #play sound computerBooting.mp3 -- add in later
+    play sound boot volume 0.5
     a "I'm glad I convinced Mom to keep this computer. She never really liked this stuff, but it's the only way for me to feel closer to you."
     a "But now I feel more alone than ever.{p}No one really gets me, and Mom's boyfriend is always over."
     a "I can't see how she can quickly move on like that.{p}It just happened so fast."
+    stop sound
     a "*sighs*"
     a "But thanks to you Dad, I'm able to learn more about what is going on out there than I would have if I had to do this on my own."
     a "Of course, life would have been much clearer for me if youre were still here.{p}But I won't let you down.{p}There's nothing here in this world that can bring me down."
     ##scene bg room #show black scene -- addin later
     hide adam neutral
-    scene bg apartment1
-    ##play sound walkingSound.mp3
-    ##with fade
-    show leon neutral
-    with fade
+
+    scene bg apartment1 with fade
+    play sound wood volume 0.2 
+    pause (2)
+    show leon neutral with fade
     l "Damn boy. What took you so long?"
 
     show adam talking at right
@@ -57,7 +51,11 @@ label a1s1:
     hide adam
     hide leon
     hide mom
-    show bg apartment1 with vpunch ##shakes screen
+
+    play sound punch volume 0.4
+    pause(0.2)
+    show bg apartment1 with vpunch
+
     show adam neutral at right
     a "Ouch..."
 
@@ -76,7 +74,7 @@ label a1s1:
     hide adam
 
     mom "Why are you always so hard on him?"
-    l "that boy needs to learn some manners.{p}Damn kids these days....{p}Is breakfast ready?"
+    l "That boy needs to learn some manners.{p}Damn kids these days....{p}Is breakfast ready?"
 
     # This ends the game.
     return

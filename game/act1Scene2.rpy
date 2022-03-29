@@ -12,7 +12,7 @@ define t =Character("Teacher")
 # The game starts here.
 
 label a1s2:
-    ##play sound somberMusic.mp3 -- add in later
+    play music outside volume 1
     ##with fade
     scene bg busStop
 
@@ -64,11 +64,11 @@ label a1s2:
     show adam neutral
 
     show finn talking
-    f "Yeah well foget them.{p}
+    f "Yeah well forget them.{p}
     It's our last semester, don't worry too much about it."
     show finn neutral
 
-    "*short silence*"
+    pause(.5)
 
     show finn talking
     f "You haven't been thinking... that again...{p}
@@ -91,20 +91,30 @@ label a1s2:
     hide finn
     hide adam
 
-    scene bg classroom
-    with fade
+    scene bg classroom with fade
+    stop music
+    play sound talking volume 0.2
+    pause (2)
 
+    show classA at left
     c1 "Did you guys see the new episode last night?"
+    show classB
     c2 "Oh my gosh. No. Did you see it?"
     c1 "No. Not yet, hopefully no one has and ruins it for everyone."
+    show classC at right
     c3 "The girl died."
     c12 "WHAT!"
     c1 "Why you have to be like that?{p}
     We haven't even seen it yet."
     c3 "Shouldn't have been talking about it."
     c2 "You're a jerk!"
+    stop sound
+    play sound bell volume 0.2
+    pause (2)
 
-    ##play sound bellRing.mp3 - add in later
+    hide classA
+    hide classB
+    hide classC
     show teach neutral at right
     t "Everybody take your seats.{p}
     We will begin from page 37 today so please take out your textbooks."
@@ -116,11 +126,13 @@ label a1s2:
     I've never been this apathetic but ever since then life hasn't been that good to me."
     a "Maybe someone would call this depression but I'm well aware of how I am feeling.{p}
     I haven't been focusing a lot at school lately and all I wanna do is keep exploring the world from my computer."
-    a "My dad said this holds the key to finding the answers I'm looking for. But what am I loking for?"
+    a "My dad said this holds the key to finding the answers I'm looking for. But what am I looking for?"
 
-    ##with hpunch for right and left -- apparently this shakes the screen?
+    play sound punch volume 0.4
+    pause(1)
+    show bg classroom with vpunch
     ##stop music
-    ##play sound intenseMusic.mp3?
+    play music tetheredFate volume 0.2
     show teach neutral at right
     t "Adam, are you going to answer the question?"
 
@@ -128,7 +140,7 @@ label a1s2:
     a "What question?"
     show adam neutral
 
-    ##play sound laughingSound.mp3
+    play sound laugh volume 0.4
     t "Adam, if you're not going to pay attention how are you going to graduate?{p}Do you even know what the real world is going to do you if you're not prepared?"
 
     show adam talking

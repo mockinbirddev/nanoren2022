@@ -563,7 +563,13 @@ screen about():
             if gui.about:
                 text "[gui.about!t]\n"
 
-            text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]")
+            text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]\n")
+
+            label "mockinbird.dev - nanoren 2022 team"
+            text _("Main Coder - Sawada14 \nCoder - Mendoxee \nWriter - DJKNITEX \nCharacter Artist - Jenna\nAdditional Artist - MeiYS\nMusic - oozy_q\n")
+
+            label "Asset Credits"
+            text _("Background Images - Uncle Mugen (ren'py forums)\nAdditional Images - tofurocks\nTitle Screen - freepik \nAdditional Sounds - freesound.org")
 
 
 style about_label is gui_label
