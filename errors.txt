@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/act1Scene2.rpy", line 110: end of line expected.
+    hide classA, classB, classC
+               ^
+
+Ren'Py Version: Ren'Py 7.4.11.2266
+Mon Mar 28 13:54:13 2022
